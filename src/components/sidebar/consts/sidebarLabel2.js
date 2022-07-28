@@ -1,25 +1,25 @@
-import LooksOneIcon from "@mui/icons-material/LooksOne";
-import LooksTwoIcon from "@mui/icons-material/LooksTwo";
+import QuestionMarkIcon from "@mui/icons-material/QuestionMark";
 import Looks3Icon from "@mui/icons-material/Looks3";
+import LocalGasStationIcon from "@mui/icons-material/LocalGasStation";
 
-import Page1 from "../../../pages/Page1/Page1";
-import Page2 from "../../../pages/Page2/Page2";
+import GasFaucet from "../../../pages/gasFaucet/GasFaucet";
+import Faq from "../../../pages/Faq/Faq";
 import Page3 from "../../../pages/Page3/Page3";
 
 export const sidebarLabel2 = [
     {
         id: 0,
-        icon: <LooksOneIcon />,
-        label: "Page One",
-        route: "page1",
-        page: <Page1 />,
+        icon: <LocalGasStationIcon />,
+        label: "GAS Faucet",
+        route: "gas-faucet",
+        page: <GasFaucet />,
     },
     {
         id: 1,
-        icon: <LooksTwoIcon />,
-        label: "Page Two",
-        route: "page2",
-        page: <Page2 />,
+        icon: <QuestionMarkIcon />,
+        label: "FAQ",
+        route: "faq",
+        page: <Faq />,
     },
     {
         id: 2,
